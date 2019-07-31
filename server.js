@@ -4,7 +4,7 @@ var bodyParser = require("body-parser");
 var path = require("path");
 
 var app = express();
-var port = process.env.port || 3000;
+var port = process.env.port || 5000;
 
 // To use a CSS file with app;
 app.use(express.static(__dirname + "/app/css"));
