@@ -7,6 +7,36 @@
     height: auto;
 }
 
+body{
+    background-image: url("https://img-www.tf-cdn.com/movie/2/the-hangover.jpeg?_v=20150922160049&w=1024&h=512&dpr=1&auto=compress&fm=pjpg&fit=crop&crop=faces%2Centropy");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 /* .modal-title{
     text-align: center;
 } */
+
+@media screen {
+    #questionaire{
+        background-color: aliceblue;
+        margin-top: 100px;
+        opacity: 0.9;
+    }
+}
+
+@media screen and (max-width: 900px){
+    body{
+        background-image: url("https://m.media-amazon.com/images/M/MV5BNGQwZjg5YmYtY2VkNC00NzliLTljYTctNzI5NmU3MjE2ODQzXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .container{
+        max-width: 90%;
+    }
+    #questionaire{
+        margin-top: 40px;
+    }
+}
