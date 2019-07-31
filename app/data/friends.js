@@ -23,6 +23,11 @@ var friends = [
         "name":"Doug",
         "photo":"https://m.media-amazon.com/images/M/MV5BMTk4NjI5NjIxN15BMl5BanBnXkFtZTcwNDI5NDY1Mg@@._V1_.jpg",
         "scores":[2,4,3,1,4,2,2,2,1,5]
+    },
+    {
+        "name":"Mr. Chow",
+        "photo":"https://m.media-amazon.com/images/M/MV5BMTgwMDAzOTIwNl5BMl5BanBnXkFtZTcwMDM5NDY1Mg@@._V1_.jpg",
+        "scores":[5,2,4,5,2,3,5,5,4,2]
     }
 ]
 
