@@ -7,7 +7,7 @@ module.exports = function(app){
     });
 
     app.post("/api/friends", function(req, res){
-        console.log(req.body.scores);
+        // console.log(req.body.scores);
 
         // Pulls all parts of the body (Name, Photo, scores)
         var user = req.body;
