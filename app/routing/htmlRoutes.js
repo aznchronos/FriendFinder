@@ -6,6 +6,7 @@ module.exports = function(app){
         res.sendFile(path.join(__dirname, "../public/survey.html"));
     });
 
+    // Default path, so it loads up main page on loading into server
     app.get("/", function(req, res){
         res.sendFile(path.join(__dirname, "../public/home.html"));
     });
