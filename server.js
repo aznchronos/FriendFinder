@@ -4,7 +4,7 @@ var bodyParser = require("body-parser");
 var path = require("path");
 
 var app = express();
-var port = process.env.port || 8080;
+var PORT = process.env.PORT || 8080;
 
 // To use a CSS file with app;
 app.use(express.static(__dirname + "/app/css"));
@@ -18,6 +18,6 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
 
-app.listen(port, function(){
-    console.log("App listening on PORT " + port);
+app.listen(PORT, function(){
+    console.log("App listening on PORT " + PORT);
 })
